@@ -3,10 +3,12 @@ package leetcode;
 import leetcode.runner.AC;
 import leetcode.runner.Outline;
 import leetcode.runner.ProblemLevel;
+import leetcode.runner.URL;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+@URL("https://leetcode.cn/problems/dui-cheng-de-er-cha-shu-lcof/")
 @Outline(name = "剑指 Offer 28. 对称的二叉树", description = "二叉树, 递归", level = ProblemLevel.EASY)
 public class Offer28 {
 
