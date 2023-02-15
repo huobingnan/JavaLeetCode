@@ -16,13 +16,16 @@ public class Offer28 {
         if (p == null && q == null) return true;
         else if (p != null && q != null) {
             if (p.val != q.val) return false;
-            return checkSymmetric(p.left, q.right) && checkSymmetric(p.right, q.left);
+            // 递归剪枝
+            final boolean one = checkSymmetric(p.left, q.right);
+            if (one) return checkSymmetric(p.right, q.left);
+            else return false;
         } else {
             return false;
         }
     }
 
-    @AC(time = "0 ms", memory = "39.6 MB", timeRank = "100%", memoryRank = "59.74%")
+    @AC(time = "0 ms", memory = "39.4 MB", timeRank = "100%", memoryRank = "93.36%")
     public boolean isSymmetric(TreeNode root) {
         if (root == null) return true;
         return checkSymmetric(root.left, root.right);
