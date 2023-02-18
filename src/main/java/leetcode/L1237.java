@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @URL("https://leetcode.cn/problems/find-positive-integer-solution-for-a-given-equation")
-@Outline(name = "1237. 找出给定方程的正整数解", description = "梯度下降", level = ProblemLevel.MEDIUM)
+@Outline(name = "1237. 找出给定方程的正整数解", description = "沿着梯度的方向枚举", level = ProblemLevel.MEDIUM)
 public class L1237 {
 
     // 目标函数定义为 J(x, y) = f(x, y) - z, J(x, y) = 0
