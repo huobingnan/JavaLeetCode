@@ -6,7 +6,7 @@ import leetcode.runner.ProblemLevel;
 import leetcode.runner.URL;
 
 @URL("https://leetcode.cn/problems/check-if-it-is-a-good-array/")
-@Outline(name = "1250. 检查「好数组」", description = "数论, 裴蜀定理, 互质", level = ProblemLevel.HARD)
+@Outline(name = "1250. 检查「好数组」", description = "数论, 裴蜀定理, 互质, 最大公因数", level = ProblemLevel.HARD)
 public class L1250 {
 
     public int gcd(final int a, final int b) {
