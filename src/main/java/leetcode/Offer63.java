@@ -3,11 +3,13 @@ package leetcode;
 import leetcode.runner.AC;
 import leetcode.runner.Outline;
 import leetcode.runner.ProblemLevel;
+import leetcode.runner.URL;
 
 import java.util.Deque;
 import java.util.LinkedList;
 
-@Outline(name = "剑指 Offer 63. 股票的最大利润", description = "动态规划", level = ProblemLevel.MEDIUM)
+@URL("https://leetcode.cn/problems/gu-piao-de-zui-da-li-run-lcof")
+@Outline(name = "剑指 Offer 63. 股票的最大利润", description = "模拟, 贪心", level = ProblemLevel.MEDIUM)
 public class Offer63 {
 
     // 考虑局部性的最优，并将局部最优缓存，在全局比较
