@@ -1,11 +1,9 @@
 package leetcode;
 
+import leetcode.infra.ListNode;
 import leetcode.runner.AC;
 import leetcode.runner.Outline;
 import leetcode.runner.ProblemLevel;
-
-import java.util.Arrays;
-import java.util.stream.IntStream;
 
 @AC(time = "0 ms", memory = "42.1 MB", timeRank = "100%", memoryRank = "41.37%")
 @Outline(name = "剑指 Offer 06. 从尾到头打印链表", description = "链表", level = ProblemLevel.EASY)

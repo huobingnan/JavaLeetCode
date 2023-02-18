@@ -1,5 +1,6 @@
 package leetcode;
 
+import leetcode.infra.ListNode;
 import leetcode.runner.AC;
 import leetcode.runner.Outline;
 import leetcode.runner.ProblemLevel;

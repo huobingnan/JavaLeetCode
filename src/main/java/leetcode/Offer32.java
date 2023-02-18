@@ -1,13 +1,12 @@
 package leetcode;
 
+import leetcode.infra.TreeNode;
 import leetcode.runner.AC;
 import leetcode.runner.Outline;
 import leetcode.runner.ProblemLevel;
 
 import java.util.ArrayDeque;
-import java.util.LinkedList;
 import java.util.Queue;
-import java.util.stream.IntStream;
 
 @Outline(name = "剑指 Offer 32 - I. 从上到下打印二叉树", description = "二叉树的层序遍历", level = ProblemLevel.MEDIUM)
 public class Offer32 {
